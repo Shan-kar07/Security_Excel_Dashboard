@@ -23,6 +23,12 @@ public class DemoController {
     public String demo2() {
         return "Hello, this is a demo endpoint2!";
     }
+
+    @GetMapping("/greet-by-leela")
+    public String demoByLeela() {
+        return "Hello, this is a demo endpoint!";
+    }
+
     @GetMapping("/greetfromsheela")
     public String demo3() {
         return "Hello, this is a demo endpoint3!";
