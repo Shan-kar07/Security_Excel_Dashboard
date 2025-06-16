@@ -15,7 +15,7 @@ public class DemoController {
 
     @GetMapping("/greetfromsonu")
     public String demo2() {
-        return "Hello, this is a demo endpoint2!";
+        return "Hello, this is a demo endpoint2 from sonu!";
     }
 
 }
