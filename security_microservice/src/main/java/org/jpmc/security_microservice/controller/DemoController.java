@@ -24,6 +24,10 @@ public class DemoController {
         return "Hello, this is a demo endpoint2 from sonu!";
     }
 
+    @GetMapping("/greetfromsonu")
+    public String demo300() {
+        return "Hello, this is a demo for to raise conflict!";
+
     @GetMapping("/greet-by-leela")
     public String demoByLeela() {
         return "Hello, this is a demo endpoint!";
