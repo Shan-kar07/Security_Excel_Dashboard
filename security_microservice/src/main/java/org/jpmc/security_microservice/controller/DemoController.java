@@ -13,8 +13,8 @@ public class DemoController {
         return "Hello, this is a demo endpoint!";
     }
 
-    @GetMapping("/greet by leela")
-    public String demo3() {
+    @GetMapping("/greetbyleela")
+    public String demo8() {
         return "Hello, this is a demo endpoint!";
     }
 }
