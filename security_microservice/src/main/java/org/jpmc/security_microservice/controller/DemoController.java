@@ -24,4 +24,9 @@ public class DemoController {
         return "Hello, this is a demo endpoint2!";
     }
 
+    @GetMapping("/greetfromaishwarya")
+    public String demo12() {
+        return "Hello, this is a demo endpoint12!";
+    }
+
 }
