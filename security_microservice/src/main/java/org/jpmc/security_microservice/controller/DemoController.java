@@ -9,13 +9,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class DemoController {
     
     @GetMapping("/greet")
-    public String demo() {
-        return "Hello, this is a demo endpoint!";
+    public String demo1() {
+        return "Hello, this is a demo endpoint1!";
     }
 
-    @GetMapping("/greetbyaishu")
+    @GetMapping("/greetfromsonu")
     public String demo2() {
-        return "Hello, this is a demo endpoint!";
+        return "Hello, this is a demo endpoint2!";
     }
 
 }
