@@ -12,4 +12,9 @@ public class DemoController {
     public String demo() {
         return "Hello, this is a demo endpoint!";
     }
+
+    @GetMapping("/rxith")
+    public String greetMe(){
+        return "Rakshith Updating Something";
+    }
 }
