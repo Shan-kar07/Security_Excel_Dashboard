@@ -17,6 +17,7 @@ public class DemoController {
     public String greetMe(){
         return "Rakshith Updating Something";
     }
+
     @GetMapping("/greetfromsonu")
     public String demo2() {
         return "Hello, this is a demo endpoint2!";
