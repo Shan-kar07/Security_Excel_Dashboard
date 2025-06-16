@@ -63,4 +63,9 @@ public class DemoController {
         return "Hello, this is a demo endpoint12!";
     }
 
+    // This is a demo controller to test the security microservice
+    @GetMapping("/greetfromaishwarya1")
+    public String demo15() {
+        return "Hello, this is a demo endpoint12!";
+    }
 }
