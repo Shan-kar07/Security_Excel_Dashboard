@@ -40,7 +40,7 @@ public class DemoController {
     }
 
     @GetMapping("/greetfromaishwarya1")
-    public String demo13() {
+    public String demo14() {
         return "Hello, this is a demo endpoint12!";
     }
 
